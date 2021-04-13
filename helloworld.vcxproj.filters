@@ -11,19 +11,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="newWindow.cpp">
-      <Filter>helloworld</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>helloworld</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="newWindow.h">
+    <ClInclude Include="newwindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>helloworld</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
